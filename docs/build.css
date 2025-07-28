@@ -439,6 +439,8 @@ video {
   height: 77.9375rem;
 }.w-full{
   width: 100%;
+}.h-full {
+  height: 100%;
 }.max-w-3xl{
   max-width: 48rem;
 }.max-w-letter{
@@ -540,7 +542,9 @@ video {
   padding-right: 1.75rem;
 }.text-center{
   text-align: center;
-}.align-top{
+}.text-end {
+  text-align: end;}
+.align-top{
   vertical-align: top;
 }.font-jost{
   font-family: Jost, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

@@ -1,11 +1,10 @@
 @import "docs/jost.css";
-
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
 @screen print {
-  @page  {
+  @page {
     margin: 0;
   }
 
