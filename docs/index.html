@@ -25,8 +25,8 @@
         <section
             class="p-3 my-auto mx-auto max-w-3xl bg-gray-100 rounded-2xl border-4 border-gray-700 sm:p-9 md:p-16 lg:mt-6 print:border-0 page print:max-w-letter print:max-h-letter print:mx-0 print:my-0 xsm:p-8 print:bg-white md:max-w-letter md:h-letter lg:h-letter">
             <!-- Name ---------------------------------------------------------------------------------------------------->
-            <header class="inline-flex justify-between items-start mb-2 w-full align-top border-b-4 border-gray-300">
-                <section class="block mb-2">
+            <header class="inline-flex justify-between items-start mb-2 w-full align-top">
+                <section class="block">
                     <h1 class="mb-0 text-5xl font-bold text-gray-700">
                         Tanbir Mahmud
                     </h1>
@@ -40,13 +40,13 @@
                     </h3>
                 </section>
                 <!-- Contact Information ------------------------------------------------------------------------------------->
-                <section class="mb-2 first:mt-0">
+                <section class="first:mt-0">
                     <section class="break-inside-avoid">
                         <section class="break-inside-avoid">
                             <ul class="list-inside">
                                 <li
                                     class="mt-1 leading-normal text-black text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md print:">
-                                    <a href="https://tanbir-portfolio-sigma.vercel.app/" class="group">
+                                    <a href="https://tanbir-portfolio-sigma.vercel.app/" target="_blank" class="group">
                                         <span class="mr-2 text-lg font-semibold text-gray-700 leading-snugish">
                                             Portfolio:
                                         </span>
@@ -59,7 +59,7 @@
                                 </li>
                                 <li
                                     class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
-                                    <a href="https://www.linkedin.com/in/mahmud-tanbir/" class="group">
+                                    <a href="https://www.linkedin.com/in/mahmud-tanbir/" target="_blank" class="group">
                                         <span class="mr-2 text-lg font-semibold text-gray-700 leading-snugish">LinkedIn:
                                         </span>in/mahmud-tanbir
                                         <span
@@ -70,7 +70,7 @@
                                 </li>
                                 <li
                                     class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
-                                    <a href="https://github.com/mt-tanbir" class="group">
+                                    <a href="https://github.com/mt-tanbir" target="_blank" class="group">
                                         <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
                                             Github:
                                         </span>
@@ -83,7 +83,7 @@
                                 </li>
                                 <li
                                     class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
-                                    <a href="mailto:mtanbir.dev@gmail.com" class="group">
+                                    <a href="mailto:mtanbir.dev@gmail.com" target="_blank" class="group">
                                         <span class="mr-8 text-lg font-semibold text-gray-700 leading-snugish">
                                             Email:
                                         </span>
@@ -96,7 +96,7 @@
                                 </li>
                                 <li
                                     class="mt-1 leading-normal text-gray-500 transition duration-100 ease-in hover:text-gray-700 text-md">
-                                    <a href="tel:+8801756723072">
+                                    <a href="tel:+8801756723072" target="_blank">
                                         <span class="mr-5 text-lg font-semibold text-gray-700 leading-snugish">
                                             Phone:
                                         </span>
@@ -109,19 +109,20 @@
                 </section>
             </header>
 
-
             <!-- Column -------------------------------------------------------------------------------------------------->
-            <section
-                class="print:h-letter-col-full col-fill-balance md:h-letter-col-full">
+            <section class="print:h-letter-col-full col-fill-balance md:h-letter-col-full">
                 <section class="flex-col">
                     <!--Summary ---------------------------------------------------------------------------------------------------------->
-                    <section class="pb-2 pb-4 mt-0 border-b-4 border-gray-300 first:mt-0">
+                    <section class="mt-0 first:mt-0">
                         <section class="break-inside-avoid">
-                            <h2 class="mb-2 text-xl font-bold tracking-widest text-gray-700 print:font-normal">
-                                SUMMARY
-                            </h2>
+                            <div class="mb-2 flex items-baseline">
+                                <h2 class="text-xl font-bold tracking-widest text-gray-700 mr-2">
+                                    SUMMARY</h2>
+                                <div class="flex-grow border-b-3 border-gray-300"></div>
+                            </div>
                             <section class="mb-2 break-inside-avoid">
-                                <p class="mt-2 leading-normal text-gray-700 text-md">A proficient front-end developer
+                                <p class="leading-normal text-gray-700 text-md text-justify">A proficient front-end
+                                    developer
                                     with a concentration in web development and a CSE degree. I have entry-level
                                     experience as a front-end developer specializing in HTML, CSS, React, and user
                                     interface design. Capable of recognizing opportunities to optimize the user
@@ -132,105 +133,227 @@
                             </section>
                         </section>
                     </section>
-                    <!--Education -------------------------------------------------------------------------------------------------------->
-                    <section class="pb-0 mt-2 border-b-4 border-gray-300 first:mt-0 break-inside-avoid">
-                        <!-- To keep in the same column -->
+
+                    <!--Work Experience ------------------------------------------------------------------------------------------------------>
+                    <section class="mt-2 first:mt-0">
+                        <!-- To keep in the same column ------------------------------------------------------------------------->
                         <section class="break-inside-avoid">
-                            <h2 class="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal">
-                                EDUCATION
-                            </h2>
-                            <!-- school --------------------------------------------------------------------------->
-                            <section class="mt-2 pb-2 border-b-2 border-gray-200 break-inside-avoid">
+                            <div class="mb-2 flex items-baseline">
+                                <h2 class="text-xl font-bold tracking-widest text-gray-700 mr-2">
+                                    WORK EXPERIENCES</h2>
+                                <div class="flex-grow border-b-3 border-gray-300"></div>
+                            </div>
+                            <section>
+                                <!--Place-->
+                                <div class="mb-2 flex justify-between items-baseline">
+                                    <h3 class="mb-1 font-bold text-gray-800 text-lg leading-snugish">
+                                        UI Barn | Empowering Creativity Through Digital Assets
+                                    </h3>
+                                    <p class="text-md leading-normal text-gray-700">
+                                        Dhaka, Mirpur DOHS, Bangladesh</p>
+                                </div>
+                                <!--Job 2-->
+                                <section class="mb-2 pb-2 ml-2 border-b-1 border-gray-200 break-inside-avoid">
+                                    <div class="flex justify-between items-baseline">
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800 text-lg leading-snugish">
+                                                Jr. Frontend Developer (Promoted from Web Development Intern)
+                                            </h3>
+                                        </div>
+                                        <div class="text-end">
+                                            <p class="leading-normal text-gray-700 text-md">
+                                                July 2024 &ndash; Present
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <ul
+                                        class="pl-3 mt-2 font-normal text-gray-700 text-md list-disc list-inside leading-snugish">
+                                        <li>Developed responsive user interfaces using HTML, CSS, Tailwind CSS, and
+                                            Bootstrap.
+                                        </li>
+                                        <li>Contributed to 10+ client websites, including Cargopoint and Consumer
+                                            Legal Group.
+                                        </li>
+                                        <li>Built an event management platform as a dynamic in-house product.
+                                        </li>
+                                        <li>Managed and updated product review data to boost engagement and
+                                            conversions.
+                                        </li>
+                                    </ul>
+                                </section>
+
+                                <!-- job 1  -->
+                                <section class="mb-2 ml-2 pb-2 break-inside-avoid">
+                                    <div class="flex justify-between items-baseline">
+                                        <div>
+                                            <h3 class="font-semibold text-gray-800 text-lg leading-snugish">
+                                                Web Development Intern
+                                            </h3>
+                                        </div>
+                                        <div class="text-end">
+                                            <p class="leading-normal text-gray-700 text-md">
+                                                Jan 2024 &ndash; June 2024
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <ul
+                                        class="pl-3 mt-2 font-normal text-gray-700 text-md list-disc list-inside leading-snugish">
+                                        <li>Assisted in developing interactive features using jQuery and Bootstrap,
+                                            enhancing site usability.
+                                        </li>
+                                        <li>Contributed to Cargopoint template, successfully approved and listed on
+                                            ThemeForest.</li>
+                                        <li>Supported client projects such as Keylodge Living, Mobsmile, and
+                                            FRANKENDRIKAT, applying core front-end principles in
+                                            production.</li>
+                                    </ul>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+
+                    <!-- Projects ------------------------------------------------------------------------------------------------------>
+                    <section class="mt-2 first:mt-0">
+                        <!-- To keep in the same column ------------------------------------------------------------------------->
+                        <section class="break-inside-avoid">
+                            <div class="mb-2 flex items-baseline">
+                                <h2 class="text-xl font-bold tracking-widest text-gray-700 mr-2">
+                                    PROJECTS</h2>
+                                <div class="flex-grow border-b-3 border-gray-300"></div>
+                            </div>
+                            <!-- Project 1 -->
+                            <section class="mb-2 pb-2 border-b-1 border-gray-200 break-inside-avoid">
                                 <div class="flex justify-between items-baseline">
                                     <div>
-                                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                                            CCN University of Science & Technology
+                                        <h3 class="mb-1 font-semibold text-gray-800 text-lg leading-snugish">
+                                            Cargopoint &ndash; Logistic Shipping & Courier Template
                                         </h3>
-                                        <p class="leading-normal text-gray-500 text-md">
-                                            Bachelor of Science in Computer Science and Engineering
-                                        </p>
+                                        <div class="text-gray-800 text-md">
+                                            <div>
+                                                <span class="font-semibold text-md">Technology:
+                                                </span>HTML, Bootstrap, JavaScript, JQuery
+                                            </div>
+                                        </div>
+                                        <p class="text-md leading-normal text-gray-700">
+                                            Cargopoint is the ideal HTML template for logistics companies to boost their
+                                            online presence and attract more clients.</p>
                                     </div>
                                     <div class="text-end">
-                                        <p class="leading-normal text-gray-500 text-md">
-                                            Cumilla, Bangladesh
-                                        </p>
-                                        <p class="leading-normal text-gray-500 text-md">
-                                            2019 &ndash; 2023
-                                        </p>
+                                        <a href="https://asset.uibucket.net/html/cargopoint/" target="_blank"
+                                            class="leading-normal text-gray-500 font-semibold text-md hover:text-gray-700 print:text-black">
+                                            Visit Link
+                                        </a>
                                     </div>
                                 </div>
-                                <ul class="mt-2 list-inside text-gray-800 text-md">
-                                    <li>
-                                        <span class="font-semibold text-md">CGPA:
-                                        </span>3.63 out of 4.00
-                                    </li>
-                                </ul>
-                            </section>
-                            <!--school 2--------------------------------------------------------------------------------------------->
-                            <section class="pb-2 mt-2 mb-2 border-b-2 border-gray-200 break-inside-avoid">
-                                <div class="flex justify-between items-baseline">
-                                    <div>
-                                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                                            Cumilla Govt. City College
-                                        </h3>
-                                        <p class="leading-normal text-gray-500 text-md">
-                                            Higher Secondary Certificate (HSC)
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <p class="leading-normal text-gray-500 text-md">
-                                            Cumilla, Bangladesh
-                                        </p>
-                                        <p class="leading-normal text-gray-500 text-md text-end">
-                                            2016 &ndash; 2018
-                                        </p>
-                                    </div>
-                                </div>
-                                <ul class="mt-2 list-inside text-gray-800 text-md">
-                                    <li>
-                                        <span class="font-semibold text-md">CGPA:
-                                        </span>3.42 out of 5.00
-                                    </li>
-                                </ul>
                             </section>
 
-                            <!--school 3 --------------------------------------------------------------------------------->
-                            <section class="pb-2 mt-2 mb-2 break-inside-avoid">
+                            <!-- Project 2  -->
+                            <section class="mb-2 pb-2 border-b-1 border-gray-200 break-inside-avoid">
                                 <div class="flex justify-between items-baseline">
                                     <div>
-                                        <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                                            Cumilla Modern High School
+                                        <h3 class="mb-1 font-semibold text-gray-800 text-lg leading-snugish">
+                                            Eventdia
                                         </h3>
-                                        <p class="leading-normal text-gray-500 text-md">
-                                            Secondary School Certificate (SSC)
+                                        <div class="text-gray-800 text-md">
+                                            <div>
+                                                <span class="font-semibold text-md">Technology:
+                                                </span>HTML, Tailwind, JavaScript, JQuery
+                                            </div>
+                                        </div>
+                                        <p class="text-md leading-normal text-gray-700">
+                                            A platform for creating, managing, and registering for events. Enables
+                                            seamless inter-action between organizers and
+                                            attendees.</p>
+                                    </div>
+                                    <div class="text-end">
+                                        <a href="https://asset.uibucket.net/html/eventry/src/index.html" target="_blank"
+                                            class="leading-normal text-gray-500 font-semibold text-md hover:text-gray-700 print:text-black">
+                                            Visit Link
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Project 3  -->
+                            <section class="mb-2 pb-2 border-b-1 border-gray-200 break-inside-avoid">
+                                <div class="flex justify-between items-baseline">
+                                    <div>
+                                        <h3 class="mb-1 font-semibold text-gray-800 text-lg leading-snugish">
+                                            Top Expert Cleaner
+                                        </h3>
+                                        <div class="text-gray-800 text-md">
+                                            <div>
+                                                <span class="font-semibold text-md">Technology:
+                                                </span>WordPress, Elementor
+                                            </div>
+                                        </div>
+                                        <p class="text-md leading-normal text-gray-700">
+                                            A trusted cleaning service platform providing professional home and office cleaning.
+                                            Ensures spotless results with reliable, expert cleaners tailored to your needs.
                                         </p>
                                     </div>
+                                    <div class="text-end whitespace-nowrap">
+                                        <a href="https://topexpertcleaner.com/" target="_blank"
+                                            class="leading-normal text-gray-500 font-semibold text-md hover:text-gray-700 print:text-black text-nowrap">
+                                            Visit Link
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                    </section>
+
+                    <!--Education -------------------------------------------------------------------------------------------------------->
+                    <section class="mt-2 first:mt-0 break-inside-avoid">
+                        <!-- To keep in the same column -->
+                        <section class="break-inside-avoid">
+                            <div class="mb-2 flex items-baseline">
+                                <h2 class="text-xl font-bold tracking-widest text-gray-700 mr-2">
+                                    EDUCATIONAL QUALIFICATIONS</h2>
+                                <div class="flex-grow border-b-3 border-gray-300"></div>
+                            </div>
+
+                            <!-- school --------------------------------------------------------------------------->
+                            <section class="mb-2 break-inside-avoid">
+                                <div class="flex justify-between">
                                     <div>
-                                        <p class="leading-normal text-gray-500 text-md">
-                                            Cumilla, Bangladesh
+                                        <h3 class="mb-1 text-lg font-semibold text-gray-700 leading-snugish">
+                                            Bachelor of Science in Computer Science and Engineering (CSE)
+                                        </h3>
+                                        <p class="leading-normal text-gray-700 text-lg">
+                                            CCN University of Science & Technology
                                         </p>
-                                        <p class="leading-normal text-gray-500 text-md text-end">
-                                            2012 &ndash; 2016
+                                        <ul class="list-inside text-gray-800 text-md">
+                                            <li>
+                                                <span class="font-semibold text-md">CGPA:
+                                                </span>3.63 out of 4.00
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="text-end">
+                                        <p class="mb-1 leading-normal text-gray-700 text-md">
+                                            2019 &ndash; 2023
+                                        </p>
+                                        <p class="leading-normal text-gray-700 text-md">
+                                            Cumilla, Bangladesh
                                         </p>
                                     </div>
                                 </div>
-                                <ul class="mt-2 list-inside text-gray-800 text-md">
-                                    <li>
-                                        <span class="font-semibold text-md">CGPA:
-                                        </span>5.00 out of 5.00
-                                    </li>
-                                </ul>
                             </section>
                         </section>
                     </section>
 
                     <!--Begin Skills ----------------------------------------------------------------------------------------------------->
-                    <section class="pb-6 mt-0 mb-4 border-b-4 border-gray-300 first:mt-0 break-inside-avoid">
+                    <section class="mt-2 first:mt-0 break-inside-avoid">
                         <!-- To keep in the same column -->
                         <section class="break-inside-avoid">
-                            <h2 class="mb-2 text-lg font-bold tracking-widest text-gray-700 print:font-normal">
-                                SKILLS
-                            </h2>
+                            <div class="mb-2 flex items-baseline">
+                                <h2 class="text-xl font-bold tracking-widest text-gray-700 mr-2">
+                                    SKILLS</h2>
+                                <div class="flex-grow border-b-3 border-gray-300"></div>
+                            </div>
                             <section class="mb-0 break-inside-avoid">
                                 <section class="mt-1 last:pb-1">
                                     <ul class="flex flex-wrap -mb-1 font-bold leading-relaxed text-md -mr-1.6">
@@ -301,92 +424,6 @@
                                             Lua </li>
                                     </ul>
                                 </section>
-                            </section>
-                        </section>
-                    </section>
-
-                    <!--Experience ------------------------------------------------------------------------------------------------------>
-                    <section class="pb-2 pb-4 mt-4 border-b-4 border-gray-300 first:mt-0">
-                        <!-- To keep in the same column ------------------------------------------------------------------------->
-                        <section class="break-inside-avoid">
-                            <h2 class="mb-2 text-xl font-black tracking-widest text-gray-800 print:font-normal">
-                                EXPERIENCE
-                            </h2>
-                            <!--Job 2-->
-                            <section class="mb-2 border-b-2 border-gray-200 break-inside-avoid">
-                                <header>
-                                    <h3 class="font-semibold text-gray-800 text-md leading-snugish">
-                                        Jr. Frontend Developer
-                                    </h3>
-                                    <p class="text-sm leading-normal text-gray-500">
-                                        May 2024 &ndash; Present | Freelance
-                                    </p>
-                                </header>
-                                <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
-                                    <li>
-                                        <span class="text-gray-500 transform -translate-y-px select-none">
-                                            &rsaquo;
-                                        </span>Developed responsive user interfaces using HTML, CSS, Tailwind CSS, and
-                                        Bootstrap.
-                                    </li>
-                                    <li>
-                                        <span class="text-gray-500 transform -translate-y-px select-none">
-                                            &rsaquo;
-                                        </span>Contributed to 10+ client websites, including Cargopoint and Consumer
-                                        Legal Group.
-                                    </li>
-                                    <li>
-                                        <span class="text-gray-500 transform -translate-y-px select-none">
-                                            &rsaquo;
-                                        </span>Built an event management platform as a dynamic in-house product.
-                                    </li>
-                                    <li>
-                                        <span class="text-gray-500 transform -translate-y-px select-none">
-                                            &rsaquo;
-                                        </span>Managed and updated product review data to boost engagement and
-                                        conversions.
-                                    </li>
-                                </ul>
-                            </section>
-                            <!-- job 1  -->
-                            <section class="mb-2 break-inside-avoid">
-                                <header>
-                                    <h3 class="font-semibold text-gray-800 text-md leading-snugish">
-                                        Web Development Intern
-                                    </h3>
-                                    <p class="text-sm text-gray-500 leading-snugish">
-                                        Jan 2024 &ndash; Apr 2024 | Freelance
-                                    </p>
-                                </header>
-                                <ul class="pl-3 mt-2 font-normal text-gray-700 text-md leading-snugish">
-                                    <li>
-                                        <span class="text-gray-500 transform -translate-y-px select-none">
-                                            &rsaquo;
-                                        </span>
-                                        Learned and applied core front-end principles in a production work environment.
-                                    </li>
-                                    <li>
-                                        <span class="text-gray-500 transform -translate-y-px select-none">
-                                            &rsaquo;
-                                        </span>
-                                        Assisted in developing interactive features using jQuery and Bootstrap
-                                        components.
-                                    </li>
-                                    <li>
-                                        <span class="text-gray-500 transform -translate-y-px select-none">
-                                            &rsaquo;
-                                        </span>
-                                        Contributed to Cargopoint template, successfully approved and listed on
-                                        ThemeForest.
-                                    </li>
-                                    <li>
-                                        <span class="text-gray-500 transform -translate-y-px select-none">
-                                            &rsaquo;
-                                        </span>
-                                        Gained hands-on experience by contributing to real-world client projects like
-                                        Keylodge Living, Mobsmile, and FRANKENDRIKAT.
-                                    </li>
-                                </ul>
                             </section>
                         </section>
                     </section>

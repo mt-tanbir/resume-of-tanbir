@@ -473,6 +473,10 @@ video {
   flex-wrap: wrap;
 }.items-baseline{
   align-items: baseline;
+}.items-center {
+  align-items: center;
+}.items-end {
+  align-items: end;
 }.justify-between{
   justify-content: space-between;
 }.hyphens-manual{
@@ -488,8 +492,12 @@ video {
   border-width: 4px;
 }.border-b-0{
   border-bottom-width: 0px;
+}.border-b-1 {
+  border-bottom-width: 1px;
 }.border-b-2{
   border-bottom-width: 2px;
+}.border-b-3 {
+  border-bottom-width: 3px;
 }.border-b-4{
   border-bottom-width: 4px;
 }.border-gray-300{
@@ -540,6 +548,8 @@ video {
   padding-left: 0.75rem;
 }.pr-7{
   padding-right: 1.75rem;
+}.text-justify {
+  text-align: justify;
 }.text-center{
   text-align: center;
 }.text-end {
