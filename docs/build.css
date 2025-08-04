@@ -279,7 +279,7 @@ table {
   /* 1 */
   border-color: inherit;
   /* 2 */
-  border-collapse: collapse;
+  border-collapse: separate;
   /* 3 */
 }
 
@@ -546,6 +546,8 @@ body {
   position: relative;
 }
 
+
+
 .m-0 {
   margin: 0px;
 }
@@ -708,6 +710,14 @@ body {
 
 .border-collapse {
   border-collapse: collapse;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.border-spacing-x-4 {
+  border-spacing: 1rem 0 ;
 }
 
 .-translate-y-px {
@@ -893,6 +903,10 @@ body {
 
 .pr-7 {
   padding-right: 1.75rem;
+}
+
+.pr-1 {
+  padding-right: 0.5rem;
 }
 
 .text-justify {
