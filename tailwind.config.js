@@ -2,10 +2,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-  content:[
-"**/*.html",
-    "**/*.css"
-],
+  content: ["**/*.html", "**/*.css"],
   theme: {
     /* For Letter size */
     screens: {
@@ -58,28 +55,26 @@ module.exports = {
         transparent: "transparent",
         current: "currentColor",
 
-        black: "#2c2c2c",
-        white: "#fdfdfd",
+        black: "#000000",
+        white: "#ffffff",
 
         gray: {
-          50: '#F9F9F9',
-          100: '#E7E7E7',
-          200: '#C4C4C4',
-          300: '#A0A0A0',
-          400: '#7C7C7C',
-          500: '#595959',
-          600: '#494949',
-          700: '#3A3A3A',
-          800: '#2B2B2B',
-          900: '#1B1B1B',
-          950: '#141414'
+          50: "#F9F9F9",
+          100: "#E7E7E7",
+          200: "#C4C4C4",
+          300: "#A0A0A0",
+          400: "#7C7C7C",
+          500: "#595959",
+          600: "#494949",
+          700: "#3A3A3A",
+          800: "#2B2B2B",
+          900: "#1B1B1B",
+          950: "#141414",
         },
         link: "#969696",
       },
     },
   },
-
-  
 
   plugins: [
     plugin(function ({ addBase, addUtilities, theme }) {
